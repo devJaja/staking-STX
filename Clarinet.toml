@@ -1,3 +1,4 @@
 [project]
 name = 'staking-project'
 description = 'STX staking contract'
+authors = []
