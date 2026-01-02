@@ -9,3 +9,6 @@
 
 ;; Data Variables
 (define-data-var total-staked uint u0)
+
+;; Data Maps
+(define-map stakes principal uint)
