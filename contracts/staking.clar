@@ -12,3 +12,4 @@
 
 ;; Data Maps
 (define-map stakes principal uint)
+(define-map stake-time principal uint)
