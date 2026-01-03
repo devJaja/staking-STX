@@ -27,6 +27,7 @@
 (define-public (stake (amount uint))
   (begin
     (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
+    (map-set stakes tx-sender (+ (get-stake tx-sender) amount))
     (ok true)
   )
 )
