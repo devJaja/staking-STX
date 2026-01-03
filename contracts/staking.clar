@@ -18,3 +18,7 @@
 (define-read-only (get-stake (user principal))
   (default-to u0 (map-get? stakes user))
 )
+
+(define-read-only (get-total-staked)
+  (var-get total-staked)
+)
