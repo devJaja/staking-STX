@@ -22,3 +22,8 @@
 (define-read-only (get-total-staked)
   (var-get total-staked)
 )
+
+;; Public functions
+(define-public (stake (amount uint))
+  (ok true)
+)
