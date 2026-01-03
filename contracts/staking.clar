@@ -25,5 +25,8 @@
 
 ;; Public functions
 (define-public (stake (amount uint))
-  (ok true)
+  (begin
+    (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
+    (ok true)
+  )
 )
