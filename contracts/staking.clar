@@ -13,3 +13,8 @@
 ;; Data Maps
 (define-map stakes principal uint)
 (define-map stake-time principal uint)
+
+;; Read-only functions
+(define-read-only (get-stake (user principal))
+  (default-to u0 (map-get? stakes user))
+)
