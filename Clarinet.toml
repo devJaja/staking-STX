@@ -3,3 +3,4 @@ name = 'staking-project'
 description = 'STX staking contract'
 authors = []
 telemetry = true
+cache_dir = './.cache'
