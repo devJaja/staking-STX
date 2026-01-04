@@ -39,6 +39,7 @@
     (asserts! (>= current-stake amount) err-insufficient-balance)
     (try! (as-contract (stx-transfer? amount tx-sender contract-caller)))
     (map-set stakes tx-sender (- current-stake amount))
+    (var-set total-staked (- (var-get total-staked) amount))
     (ok true)
   )
 )
