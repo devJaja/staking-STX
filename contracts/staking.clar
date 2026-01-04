@@ -37,6 +37,7 @@
 (define-public (unstake (amount uint))
   (let ((current-stake (get-stake tx-sender)))
     (asserts! (>= current-stake amount) err-insufficient-balance)
+    (try! (as-contract (stx-transfer? amount tx-sender contract-caller)))
     (ok true)
   )
 )
