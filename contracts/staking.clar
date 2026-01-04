@@ -35,5 +35,7 @@
 )
 
 (define-public (unstake (amount uint))
-  (ok true)
+  (let ((current-stake (get-stake tx-sender)))
+    (ok true)
+  )
 )
