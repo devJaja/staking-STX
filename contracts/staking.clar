@@ -33,3 +33,7 @@
     (ok true)
   )
 )
+
+(define-public (unstake (amount uint))
+  (ok true)
+)
