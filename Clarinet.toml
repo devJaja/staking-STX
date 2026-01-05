@@ -5,3 +5,5 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.staking]
+path = 'contracts/staking.clar'
