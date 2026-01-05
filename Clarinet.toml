@@ -7,3 +7,4 @@ cache_dir = './.cache'
 requirements = []
 [contracts.staking]
 path = 'contracts/staking.clar'
+clarity_version = 2
