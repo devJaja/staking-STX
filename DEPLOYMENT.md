@@ -7,3 +7,8 @@
 \`\`\`bash
 clarinet check
 \`\`\`
+
+## Deploy to Testnet
+\`\`\`bash
+clarinet deployments generate --testnet
+\`\`\`
