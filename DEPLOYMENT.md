@@ -12,3 +12,8 @@ clarinet check
 \`\`\`bash
 clarinet deployments generate --testnet
 \`\`\`
+
+## Deploy to Mainnet
+\`\`\`bash
+clarinet deployments generate --mainnet
+\`\`\`
