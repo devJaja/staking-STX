@@ -11,3 +11,6 @@ STX staking contract for Stacks blockchain
 \`\`\`bash
 clarinet check
 \`\`\`
+
+## Usage
+Call the stake function with amount in micro-STX
