@@ -17,3 +17,6 @@ clarinet deployments generate --testnet
 \`\`\`bash
 clarinet deployments generate --mainnet
 \`\`\`
+
+## Console Testing
+Use clarinet console for interactive testing
