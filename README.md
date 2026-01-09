@@ -20,3 +20,6 @@ Run tests with npm test
 
 ## Requirements
 - Clarinet 2.0+
+
+## License
+MIT
