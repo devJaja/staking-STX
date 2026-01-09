@@ -17,3 +17,6 @@ Call the stake function with amount in micro-STX
 
 ## Testing
 Run tests with npm test
+
+## Requirements
+- Clarinet 2.0+
