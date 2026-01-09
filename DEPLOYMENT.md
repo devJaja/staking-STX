@@ -20,3 +20,6 @@ clarinet deployments generate --mainnet
 
 ## Console Testing
 Use clarinet console for interactive testing
+
+## Verification
+Verify deployment with block explorer
