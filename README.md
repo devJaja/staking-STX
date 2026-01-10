@@ -23,3 +23,6 @@ Run tests with npm test
 
 ## License
 MIT
+
+## Documentation
+See docs/ for detailed documentation
