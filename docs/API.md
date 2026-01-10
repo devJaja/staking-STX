@@ -7,3 +7,6 @@ Unstake STX tokens
 
 ### get-stake(user)
 Get user's staked amount
+
+### get-total-staked()
+Get total staked in contract
