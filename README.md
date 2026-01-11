@@ -26,3 +26,6 @@ MIT
 
 ## Documentation
 See docs/ for detailed documentation
+
+## Community
+Join our community for support
