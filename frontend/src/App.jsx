@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { showConnect } from '@stacks/connect';
 import { AppConfig, UserSession } from '@stacks/connect';
 import { openContractCall } from '@stacks/connect';
+import { uintCV } from '@stacks/transactions';
 
 function App() {
   const [address, setAddress] = useState(null);
