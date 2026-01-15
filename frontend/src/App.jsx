@@ -20,6 +20,8 @@ function App() {
     });
   };
   
+  const handleStake = async () => {};
+  
   return (
     <div>
       <h1>STX Staking</h1>
