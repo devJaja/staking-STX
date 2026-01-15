@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <h1>STX Staking</h1>
-      <button onClick={connectWallet}>Connect Wallet</button>
+      {address ? <p>Connected: {address}</p> : <button onClick={connectWallet}>Connect Wallet</button>}
     </div>
   );
 }
