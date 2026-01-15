@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { showConnect } from '@stacks/connect';
+import { showConnect, openContractCall } from '@stacks/connect';
 import { AppConfig, UserSession } from '@stacks/connect';
-import { openContractCall } from '@stacks/connect';
-import { uintCV } from '@stacks/transactions';
+import { uintCV, StacksTestnet } from '@stacks/transactions';
 
 function App() {
   const [address, setAddress] = useState(null);
@@ -12,10 +11,7 @@ function App() {
   
   const connectWallet = () => {
     showConnect({
-      appDetails: {
-        name: 'STX Staking',
-        icon: window.location.origin + '/logo.png'
-      },
+      appDetails: { name: 'STX Staking', icon: window.location.origin + '/logo.png' },
       onFinish: () => {
         const userData = userSession.loadUserData();
         setAddress(userData.profile.stxAddress.testnet);
