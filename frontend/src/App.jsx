@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { showConnect } from '@stacks/connect';
 import { AppConfig, UserSession } from '@stacks/connect';
+import { openContractCall } from '@stacks/connect';
 
 function App() {
   const [address, setAddress] = useState(null);
