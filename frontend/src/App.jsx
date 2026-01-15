@@ -4,6 +4,7 @@ import { AppConfig, UserSession } from '@stacks/connect';
 
 function App() {
   const [address, setAddress] = useState(null);
+  const [amount, setAmount] = useState('');
   const appConfig = new AppConfig(['store_write', 'publish_data']);
   const userSession = new UserSession({ appConfig });
   
