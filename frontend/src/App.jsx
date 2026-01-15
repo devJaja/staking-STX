@@ -21,7 +21,12 @@ function App() {
     });
   };
   
-  return <div>STX Staking</div>;
+  return (
+    <div>
+      <h1>STX Staking</h1>
+      <button onClick={connectWallet}>Connect Wallet</button>
+    </div>
+  );
 }
 
 export default App;
