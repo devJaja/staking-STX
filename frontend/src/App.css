@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  margin: 40px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+main {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  min-width: 400px;
+}
+
+.connect-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.connect-btn:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+.staking-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.stake-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.amount-input {
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.stake-btn, .unstake-btn {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.stake-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.stake-btn:hover:not(:disabled) {
+  background: #45a049;
+}
+
+.unstake-btn {
+  background: #f44336;
+  color: white;
+}
+
+.unstake-btn:hover:not(:disabled) {
+  background: #da190b;
+}
+
+.stake-btn:disabled, .unstake-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.info {
+  text-align: center;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.info p {
+  font-size: 1.1rem;
+  color: #333;
+}
